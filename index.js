@@ -1,4 +1,6 @@
-
+$(window).scroll(function(){
+  $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
 
 function playVideo() {
   var imageContainer = document.getElementById('image-container');
