@@ -643,17 +643,15 @@ h4{
 .link_Footer a:hover{
     color: #8D448B;
 }
-/* __________________________________________media query */
+/* __________________________________________media query______________________________ */
 @media (min-width: 412px){
     .navbar{
-        width: 100%;
-        border: 2px solid black;
+        width: 50%;
     }
-    .navbar .container{
+    .container{
         padding: 0px;
         margin: 0px;
-        width: 50%;
-        border: 2px solid red;
+        width: 100%;
     }
     .banner{
         margin-left: 0px;
@@ -911,7 +909,6 @@ h4{
     .photo_Footer{
         display: block;
         width: 90%;
-        border: 2px solid red;
         padding: 5px;
     }
     .photo_Footer p a img{
@@ -927,6 +924,393 @@ h4{
         color: white;
     }
 }
- 
-  
+ /* _________________________________________360px________________________________________________________________________________________ */
+@media (min-width: 360px){
+    .navbar{
+        width: 50%;
+    }
+    .container{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .banner{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .great{
+        width: 100%;
+        display: block;
+    }
+    .soft{
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+    .sponsor{
+        display: flex;
+        width: 100%;
+    }
+    .imgContainer{
+        width: 100%;
+    }
+    .soft h3{
+        font-size: 26px;
+    }
+    .soft p{
+        font-size: 14px;
+    }
+   
+    /* ____________________section 1___________ */
+    .sect1{
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .sect1 h4{
+        font-size: 20px;
+    }
+    .ikone{
+        justify-content: center;
+        display: block;
+        width: 100%;
+    }
+    .get{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .get p{
+        font-size: 16px;
+    }
+    
+/* _________________________section 2________________ */
+    .boost{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: 2px;
+        text-align: center;
+    }
+    .boostimg{
+        width: 100%;
+    }
+    .boostimg img{
+        width: 350px;
+    }
+    .boostpara{
+        width: 100%;
+        text-align: center;
+    }
+    .boostpara h4{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .saxx{
+        display: flex;
+        align-items: center;
+        padding: 0px 15px 15px 0px;
+    }
+    .saxx svg{
+        padding: 0px 30px 0px 30px;
+    }
+    .mor{
+        padding-left: 15px;
+    }
+    /* __________________________________section 3________________________ */
+    .sec3{
+        width: 100%;
+        margin: 0rem;
+        padding: 0px;
+    }
+    .leading{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .leading h4{
+        font-size: 21px;
+    }
+    .image-container {
+        position: relative;
+        width: 90%;
+        max-width: 950px;
+        transition: opacity 0.3s ease;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    .video-container {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+      } 
+      .play-icon{
+        position: absolute;
+        top: 60%;
+      }
+    /* _______________________________section 4_______________ */
+    .testimondial {
+        background-color: transparent;
+        width: 100%;
+        margin-top: 06rem;
+        display: block;
+        justify-content: center;
+    }
+    .heading h2{
+        font-size: 26px;
+        font-weight: 700;
+        font-family: 'DM Sans';
+        color: rgb(35, 34, 34);
+    }
+    .carrousel {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .profil{
+        width: 100%;
+    } 
+    .profil p{
+        font-size: 16px;
+    }
+    .Car1 {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .car1{
+        width: 100%;
+    }
+    .line-indicator {
+        width: 380px; 
+    }
+    .right p{
+        color: white;
+        padding-left: 18px;
+    }
+    .right span{
+        color: white;
+        padding-left: 20px;
+    }
+    /* _______________________section 5______________________ */
+    .sect5{
+        width: 100%;
+        display: block;
+    }
+    .free{
+        width: 100%;
+        text-align: start;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .homportable{
+        width: 100%;
+    }
+    .free h4{
+        font-size: 28px;
+    }
+    
+    .fre{
+        color: rgb(159, 154, 154);
+    }
+    .Mor{
+        display: flex;
+        color: rgb(141, 68, 139);
+        text-decoration: none;
+        padding-left: 40%;
+    }
+    /* _____________________section 6__________________________ */
+    .tutorials{
+        width: 100%;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+    .tutorials h4{
+        font-size: 22px;
+        font-weight: 700;
+        font-style: 'DM Sans';
+        color: rgb(52, 50, 50);
+    }
+    .saisir{
+        display: block;
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .move{
+        width: 100%;
+        padding-top: 1px;
+    }
+    .hair{
+        display: block;
+        align-items: center;
+    }
+    .World{
+        width: 100%;
+    }
+    .world{
+        width: 70%;
+    }
+    .World h4{
+        color: white;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    .world button h4{
+        font-size: 17px;
+        font-weight: 700;
+        color: #8D448B;
+    }
+    .world button:hover{
+        background-color: rgb(53, 52, 52);
+        color: white;
+    }
+    .world  h4:hover{
+        color: white;
+    }
+    .world button{
+        position: relative;
+        bottom: 140px;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        justify-content: center;
+    }
 
+    .World img{
+        padding-left: 0px;
+        position: relative;
+        color:  rgb(80, 26, 78);
+        width: 2%;
+    }
+    .world img{
+        position: relative;
+        bottom: 30px;
+    }
+    /* ___________________footer_________________________ */
+    .footer{
+        width: 100%;
+        display: block;
+    }
+    .photo_Footer{
+        display: block;
+        width: 90%;
+        padding: 5px;
+    }
+    .photo_Footer p a img{
+        padding-right: 10px;
+        position: relative;
+        top: 10px;
+        width: 95%;
+    }
+    .link_Footer {
+        display: flex;
+    }
+    .link_Footer a{
+        color: white;
+    }
+}
+/* ______________________________________768_________________________________________________________ */
+@media (min-width: 768px){
+    .great{
+        width: 90%;
+        padding: 0px;
+        display: flex;
+    }
+    .soft{
+        width: 50%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .imgContainer{
+        width: 50%;
+    }
+.sect1{
+    width: 90%;
+    padding: 0px;
+}
+.ikone{
+    display: inline-flex;
+    width: 100%;
+}
+
+.sect2{
+    width: 90%;
+}
+.boost{
+    display: flex;
+    width: 100%;
+    text-align: start;
+}
+.carrousel{
+    width: 90%;
+}
+.free h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: 'DM Sans';
+}
+.homportable{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.saisir{
+    width: 100%;
+}
+.how{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avant-dernier{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.move{
+    width: 100%;
+}
+.hair{
+    display: flex;
+}
+.world{
+    width: 40%;
+}
+.World h4{
+    padding: 2px;
+    margin: 0px;
+}
+.World{
+    width: 60%;
+}
+
+.world img{
+    position: relative;
+    top: 35px;
+}
+.world button {
+    position: relative;
+    bottom: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+.footer{
+    width: 80%;
+}
+.photo_Footer{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo_Footer p a img{
+    width: 20%;
+}
+}
