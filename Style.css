@@ -556,6 +556,7 @@ h4{
 }
 .avant-dernier{
     width: 100%;
+    padding-top: 4rem;
 }
 .move{
     width: 68%;
@@ -580,7 +581,7 @@ h4{
 }
 .World img{
     position: relative;
-    padding-left: 500px;
+    padding-left: 420px;
     bottom: 80px;
 }
 .World{
@@ -615,6 +616,7 @@ h4{
 .footer{
     display: flex;
     width: 80%;
+    padding-top: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -626,7 +628,7 @@ h4{
     font-size: 16px;
 }
 .photo_Footer p a img{
-    padding-right: 30px;
+    padding-right: 20px;
     position: relative;
     top: 10px;
 }
@@ -1097,7 +1099,7 @@ h4{
     .right span{
         color: white;
         padding-left: 20px;
-    }
+    } 
     /* _______________________section 5______________________ */
     .sect5{
         width: 100%;
@@ -1124,7 +1126,7 @@ h4{
         color: rgb(141, 68, 139);
         text-decoration: none;
         padding-left: 40%;
-    }
+    } 
     /* _____________________section 6__________________________ */
     .tutorials{
         width: 100%;
@@ -1192,7 +1194,7 @@ h4{
     .world img{
         position: relative;
         bottom: 30px;
-    }
+    } 
     /* ___________________footer_________________________ */
     .footer{
         width: 100%;
@@ -1215,7 +1217,7 @@ h4{
     .link_Footer a{
         color: white;
     }
-}
+} 
 /* ______________________________________768_________________________________________________________ */
 @media (min-width: 768px){
     .great{
@@ -1224,22 +1226,21 @@ h4{
         display: flex;
     }
     .soft{
-        width: 50%;
+        width: 60%;
         padding: 0px;
         margin: 0px;
     }
     .imgContainer{
-        width: 50%;
+        width: 40%;
     }
 .sect1{
-    width: 90%;
+    width: 100%;
     padding: 0px;
 }
 .ikone{
     display: inline-flex;
     width: 100%;
 }
-
 .sect2{
     width: 90%;
 }
@@ -1313,4 +1314,206 @@ h4{
 .photo_Footer p a img{
     width: 20%;
 }
+} 
+/* _________________________1024_______________________________________ */
+@media (min-width: 1024px){
+    .banner{
+        width: 100%;
+    }
+    .great{
+        width: 100%;
+    }
+    .soft{
+        width: 50%;
+    }
+    .imgContainer{
+        width: 50%;
+    }
+
+    .sect2{
+        width: 100%;
+    }
+    .boost{
+        width: 100%;
+    }
+    .boostimg{
+        width: 50%;
+    }
+    .boostpara{
+        width: 50%;
+        text-align: start;
+    }
+    .saxx{
+        align-items: center;
+        padding: 0px 15px 15px 0px;
+    }
+    .saxx svg{
+        margin: 0px;
+        padding: 0px 10px 10px 0px;
+    }
+
+    .World h4{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .footer{
+        width: 70%;
+        display: flex;
+    }
+    .photo_Footer{
+        width: 60%;
+    }
+    .link_Footer{
+        width: 40%;
+    }
+    .link_Footer a{
+        color: black;
+    }
+}
+/* ____________________________________1280px_____________________________________________________ */
+@media (min-width: 1024px){
+    .navbar{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .container{
+        width: 80%;
+    }
+    .banner{
+        width: 100%;
+
+    }
+    .great{
+        width: 80%;
+    }
+    .soft h3{
+        font-size: 46px;
+        font-weight: 700;
+        font-style: 'DM Sans';
+    }
+    .soft p{
+        font-size: 15px;
+        font-style: 'DM Sans';
+    }
+    .sect1{
+        padding-top: 4rem;
+    }
+    .sect1 h4{
+        font-size: 34px;
+        font-style: 'DM Sans';
+    }
+    .sect2{
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .boost{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .boostpara{
+        width: 40%;
+    }
+    .boostimg{
+        width: 60%;
+    }
+    .sect3{
+        margin-top: 8rem;
+    }
+    .leading{
+        width: 50%;
+        border: 2px solid red;
+    }
+    .leading h4{
+        font-size: 36px;
+    }
+    .testimondial{
+        width: 100%;
+    }
+    .heading h2{
+        font-size: 36px;
+    }
+    .carrousel{
+        width: 50%;
+    }
+    .profil p {
+        font-size: 26px;
+    }
+    .Car1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .d-flex{
+        width: 80%;
+    }
+    .line-indicator{
+        width: 30%;
+    }
+    .right p{
+        color: black;
+    }
+    .right span{
+        color: gray;
+    }
+    .sect5{
+        width: 80%;
+        display: flex;
+        margin-top: 8rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .free{
+        width: 50%;
+        text-align: start;
+    }
+    .homportable{
+        width: 50%;
+    }
+    .free h4{
+        font-size: 36px;
+    }
+    .saisir{
+        width: 83%;
+        display: flex;
+    }
+    .sect6{
+        padding-top: 4rem;
+    }
+    .how{
+        margin: 15px;
+    }
+    .HOW p a{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .ikoncom p{
+        font-size: 16px;
+    }
+    .avant-dernier{
+        width: 100%;
+    }
+    .move{
+        width: 80%;
+    }
+    .World h4 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .World img{
+        width: 40%;
+        padding-left: 360px;
+    }
+    .world button{
+        width: 60%;
+        bottom: 110px;
+        margin-left: 50px;
+    }
+    .world img{
+        margin-left: 90px;
+        margin-bottom: 40px;
+    }
+    .footer{
+        width: 80%;
+    }
 }
